@@ -1,0 +1,43 @@
+@ApiVersioningDemo.Api_HostAddress = https://localhost:7211
+
+### Products V1 (deprecated)
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v1/products
+Accept: application/json
+
+### Product by id V1
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v1/products/1
+Accept: application/json
+
+### Products V2
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v2/products
+Accept: application/json
+
+### Product by id V2
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v2/products/1
+Accept: application/json
+
+### Orders Minimal API V1
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v1/orders
+Accept: application/json
+
+### Orders Minimal API V2
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v2/orders
+Accept: application/json
+
+### System info V1
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v1/system/info
+Accept: application/json
+
+### System info V2
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v2/system/info
+Accept: application/json
+
+### Convention demo
+GET {{ApiVersioningDemo.Api_HostAddress}}/api/v1/convention-demo
+Accept: application/json
+
+### OpenAPI V1
+GET {{ApiVersioningDemo.Api_HostAddress}}/openapi/v1.json
+
+### OpenAPI V2
+GET {{ApiVersioningDemo.Api_HostAddress}}/openapi/v2.json
